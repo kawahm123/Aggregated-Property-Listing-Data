@@ -1,1 +1,3 @@
-# Aggregated-Property-Listing-Data
+# Aggregated Property Listing Data
+<h2>Description</h2>
+This SQL query aggregates and validates real estate listing data by merging information from multiple tables and filtering results to include only listings created within the past 7 days and marked as available for lease. It constructs URLs for properties and listings, applies conditional logic to compute annualized rent values, and selects various descriptive fields such as property type, location, and size. The query groups data based on unique listing IDs and excludes listings from specified regional markets. The final output is ordered by market area and address.
